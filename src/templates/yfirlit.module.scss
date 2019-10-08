@@ -1,5 +1,10 @@
+.root {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .thumbnail{
-background-size: cover;
-height:200px;
-width:200px;
+    background-size: cover;
+    height:200px;
+    width:200px;
 }
