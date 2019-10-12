@@ -15,7 +15,7 @@ export default ({ pageContext: { ollVerk } }) => (
             <div
               className={styles.thumbnail}
               style={{ backgroundImage: imageUrlCSS(verk.file)}}
-            >hhhh</div>
+            ></div>
           </Link>
         ))}
     </div>

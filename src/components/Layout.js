@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 const Layout = ({ children, activePage }) => (
   <div className={styles.root}>
     <div className={styles.sidebar}>
-      <h1>Mussa</h1>
+      <h1>Mússa</h1>
       <Link>
         <span className={activePage === "yfirlit" && styles.active}>Verk</span>
       </Link>
