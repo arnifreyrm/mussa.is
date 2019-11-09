@@ -1,20 +1,14 @@
 .root{
     display: flex;
-
+    justify-content: center;
 }
-
-.sidebar{
-    flex: 0 0 200px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.active{
-    
-}
-
 .contents {
     flex: 1;
 }
-
+.image__container{
+    
+}
+.image{
+   height:90vh;
+   
+}
