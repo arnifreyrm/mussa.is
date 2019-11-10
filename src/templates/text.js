@@ -3,6 +3,11 @@ import { Link } from "gatsby";
 import styles from "./text.module.scss"
 export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
   <div className={styles.root}>
+    <head>
+      <title>
+        Mússa
+      </title>
+    </head>
     <Link
       to={`/verk/8e9461ee-d887-469f-b7e6-6e8e79567668`}
       className={styles.text}
