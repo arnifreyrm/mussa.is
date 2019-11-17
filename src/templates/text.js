@@ -11,9 +11,10 @@ export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
     <Link
       to={`/verk/8e9461ee-d887-469f-b7e6-6e8e79567668`}
       className={styles.text}
+      style={{textDecoration:'none',color:"black"}}
     >
       <div className={styles.text}>
-        <p>Velkomin á sýiningu á vatnslitamyndum mínum (allar í einkaeigu)</p>
+        <p>Velkomin á sýningu á vatnslitamyndum mínum (allar í einkaeigu)</p>
         <p>frá árinu 1982 til dagsins í dag.</p>
         <p>
           Ljósmynd á forsíðu tók Þorvaldur 1. ág 1980. Um það leyti byrjaði ég

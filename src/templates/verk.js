@@ -9,7 +9,10 @@ export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
     <head>
       <title>Mússa</title>
     </head>
-    <Link to={verk.file == "fullsize/img60.jpg" ? `/` : `/verk/${nextVerk.id}`}>
+    <Link
+      to={verk.file == "fullsize/img60.jpg" ? `/` : `/verk/${nextVerk.id}`}
+      style={{ textDecoration: "none", color: "black" }}
+    >
       <div>
         <img src={imageUrl(verk.file)} className={styles.image} />
       </div>
