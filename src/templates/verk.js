@@ -10,7 +10,7 @@ export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
       <title>Mússa</title>
     </head>
     <Link
-      to={verk.file == "fullsize/img60.jpg" ? `/` : `/verk/${nextVerk.id}`}
+      to={verk.file == "fullsize/img60.jpg" ? `/end` : `/verk/${nextVerk.id}`}
       style={{ textDecoration: "none", color: "black" }}
     >
       <div>
