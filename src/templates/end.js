@@ -8,7 +8,7 @@ export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
           Fleiri myndir í vændum
         </p>
         <div className={styles.img_container}>
-          <img src="images/fullsize/mussa.png" className={styles.img} />
+          <img src="../images/fullsize/mussa.png" className={styles.img} />
         </div>
       </div>
   </div>
