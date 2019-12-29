@@ -14,8 +14,7 @@ export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
       style={{textDecoration:'none',color:"black"}}
     >
       <div className={styles.text}>
-        <p>Velkomin á sýningu á vatnslitamyndum mínum (allar í einkaeigu)</p>
-        <p>frá árinu 1982 til dagsins í dag.</p>
+        <p>Velkomin á sýningu á vatnslitamyndum mínum (allar í einkaeigu) frá árinu 1982 til dagsins í dag.</p>
         <p>
           Ljósmynd á forsíðu tók Þorvaldur 1. ág 1980. Um það leyti byrjaði ég
           að mála

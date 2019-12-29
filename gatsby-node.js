@@ -18,6 +18,11 @@ exports.createPages = async ({ actions: { createPage } }) => {
     component: require.resolve("./src/templates/end.js"),
     context: { ollVerk }
   });
+   createPage({
+     path: `/text`,
+     component: require.resolve("./src/templates/text_2.js"),
+     context: { ollVerk }
+   });
   ollVerk.forEach((verk, i) => {
     createPage({
       path: `/verk/${verk.id}/`,
