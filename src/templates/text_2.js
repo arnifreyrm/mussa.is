@@ -17,7 +17,7 @@ export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
           1979-'82 skutu óvænt upp kollinum. Ég læt þær fljóta með
         </p>
         <div className={styles.img_container}>
-          <img src="images/fullsize/mussa_icon.png" className={styles.img} />
+          <img src="../images/fullsize/mussa_icon.png" className={styles.img} />
         </div>
       </div>
     </Link>
