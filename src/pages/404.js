@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./404.module.scss";
+import * as styles from "./404.module.css";
 export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
   <div className={styles.root}>
     <head>

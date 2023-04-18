@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./end.module.scss";
+import * as styles from "./end.module.css";
 export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
   <div className={styles.root}>
     <head>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import styles from "./text.module.scss"
+import * as styles from "./text.module.css";
 export default ({ pageContext: { verk, prevVerk, nextVerk } }) => (
   <div className={styles.root}>
     <head>

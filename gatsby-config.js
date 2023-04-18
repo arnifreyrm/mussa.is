@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Mussa",
+    title: "Mússa",
     siteUrl: "https://mussa.is",
-    description: "Málverk eftir Mussu"
+    description: "Málverk eftir Mússu",
   },
   plugins: [
-    "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -21,8 +20,8 @@ module.exports = {
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
-        crossOrigin: `use-credentials`
+        crossOrigin: `use-credentials`,
       },
     },
-  ]
+  ],
 };
